@@ -1,5 +1,5 @@
 # VGG16
-VGG16 architecture in pytorch
+VGG16 architecture in pytorch and VGG16 pre-trained weight from torch vision
 ### Directory Structure
     .
     |-- images
