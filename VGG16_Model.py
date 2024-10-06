@@ -4,7 +4,6 @@ import torchvision.transforms as transforms
 from PIL import Image
 import requests
 
-
 class VGG16(nn.Module):
     def __init__(self):
         super(VGG16, self).__init__()
@@ -93,12 +92,12 @@ if __name__ == "__main__":
 
     model = VGG16()
 
-    model.load_state_dict(torch.load("D:\VGG16_pytorch\\torchvision_vgg16_state.pt", weights_only = True))
+    model.load_state_dict(torch.load("torchvision_vgg16_state.pt", weights_only = True))
     # print(model)
 
     model.eval()
 
-    image_path = 'D:\VGG16_pytorch\\n02002556_white_stork.JPEG'  
+    image_path = 'n02002556_white_stork.JPEG'  
     image_tensor = load_image(image_path)
 
     predicted_idx = predict(image_tensor, model)

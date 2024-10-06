@@ -1,5 +1,6 @@
 # VGG16
-VGG16 architecture in pytorch and VGG16 pre-trained weight from torch vision
+This project utilizes transfer learning with the VGG16 model, leveraging pre-trained weights from torchvision to perform classification tasks on a custom dataset.
+While working on this project, I used Python 3.10.11. Don't forget to install PyTorch for your hardware. It will be easier to understand the entire code if you review the code in the vgg16-transfer-learning-pytorch.ipynb notebook.
 ### Directory Structure
     .
     |-- images

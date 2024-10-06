@@ -26,17 +26,15 @@ transform = transforms.Compose(
      transforms.ToTensor(),
      transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
 
-
 optimizer = optim.SGD(vgg16.classifier.parameters(), lr=0.001, momentum=0.9)
 criterion = nn.CrossEntropyLoss()
 batch = 256
 
 trainset = CustomImageDataset(csv_file = "/kaggle/working/train_indexFile.csv", transform=transform)
-trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch,
-                                          shuffle=True)
+trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch, shuffle=True)
+
 testset = CustomImageDataset(csv_file = "/kaggle/working/train_indexFile.csv", transform=transform)
-testloader = torch.utils.data.DataLoader(testset, batch_size=batch,
-                                         shuffle=False)
+testloader = torch.utils.data.DataLoader(testset, batch_size=batch, shuffle=False)
 
 def validate(model, test_dataloader):
     model.eval()
