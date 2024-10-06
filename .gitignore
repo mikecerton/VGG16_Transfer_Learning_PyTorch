@@ -1,2 +1,4 @@
 myEnvi_name
 VGG16_pre_weight.pt
+torchvision_vgg16_state.pt
+torchvision_vgg16_state.pt
