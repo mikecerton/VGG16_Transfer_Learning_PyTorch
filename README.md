@@ -1,6 +1,9 @@
 # VGG16
 This project utilizes transfer learning with the VGG16 model, leveraging pre-trained weights from torchvision to perform classification tasks on a custom dataset.
 While working on this project, I used Python 3.10.11. Don't forget to install PyTorch for your hardware. It will be easier to understand the entire code if you review the code in the vgg16-transfer-learning-pytorch.ipynb notebook.
+
+## Disclaimer
+The code in this repository is modified from this Kaggle notebook https://www.kaggle.com/code/vortexkol/vgg16-pre-trained-architecture-beginner#If-you-found-this-kernel-informative-Please-do-upvote. I used the dataset from this Kaggle dataset https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset, but you are free to use any dataset of your choice as well.
 ### Directory Structure
     .
     |-- images
