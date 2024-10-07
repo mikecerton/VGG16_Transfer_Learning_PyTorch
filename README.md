@@ -38,4 +38,5 @@ The code in this repository is modified from this Kaggle notebook https://www.ka
     |-- dataset.py
     |-- train.py
     |-- README.md
+    |-- requirements.txt
 
