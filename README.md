@@ -12,6 +12,9 @@ picture from https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/n
 - get VGG16 weight by get_weight_torchvi.py
 - creat indexfile.csv by create_indexFile.py
 - execute train.py of vgg16-transfer-learning-pytorch.ipynb
+
+### Dataset
+While developing this project, I used the dataset from Kaggle: https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset. However, you are free to use any dataset of your choice. Just make sure to place the dataset in the directory structure as I have shown in the Directory Structure.
     
 ### Directory Structure
     .
