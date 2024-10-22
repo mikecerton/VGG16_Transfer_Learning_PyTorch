@@ -41,5 +41,6 @@ While developing this project, I used the dataset from Kaggle: https://www.kaggl
     |-- requirements.txt
 
 ### Disclaimer
-The code in this repository is modified from this Kaggle notebook https://www.kaggle.com/code/vortexkol/vgg16-pre-trained-architecture-beginner#If-you-found-this-kernel-informative-Please-do-upvote. I used the dataset from this Kaggle dataset https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset, but you are free to use any dataset of your choice as well.
+ - The code in this repository is modified from this Kaggle notebook https://www.kaggle.com/code/vortexkol/vgg16-pre-trained-architecture-beginner#If-you-found-this-kernel-informative-Please-do-upvote.
+ - I used the dataset from this Kaggle dataset https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset, but you are free to use any dataset of your choice as well.
 
