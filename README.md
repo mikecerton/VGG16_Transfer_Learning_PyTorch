@@ -5,9 +5,6 @@ While working on this project, I used Python 3.10.11. Don't forget to install Py
 ![model!](https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg)
 picture from https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg
 
-### Disclaimer
-The code in this repository is modified from this Kaggle notebook https://www.kaggle.com/code/vortexkol/vgg16-pre-trained-architecture-beginner#If-you-found-this-kernel-informative-Please-do-upvote. I used the dataset from this Kaggle dataset https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset, but you are free to use any dataset of your choice as well.
-
 ### Quick start
 - Install PyTorch ([pytorch.org](http://pytorch.org))
 - `pip install -r requirements.txt`
@@ -39,4 +36,7 @@ The code in this repository is modified from this Kaggle notebook https://www.ka
     |-- train.py
     |-- README.md
     |-- requirements.txt
+
+### Disclaimer
+The code in this repository is modified from this Kaggle notebook https://www.kaggle.com/code/vortexkol/vgg16-pre-trained-architecture-beginner#If-you-found-this-kernel-informative-Please-do-upvote. I used the dataset from this Kaggle dataset https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset, but you are free to use any dataset of your choice as well.
 
