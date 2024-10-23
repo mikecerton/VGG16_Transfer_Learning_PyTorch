@@ -1,8 +1,8 @@
 # VGG16
-This project utilizes transfer learning with the VGG16 model, leveraging pre-trained weights from torchvision to perform classification tasks on a custom dataset.
+&emsp;This project utilizes transfer learning with the VGG16 model, leveraging pre-trained weights from torchvision to perform classification tasks on a custom dataset.
 While working on this project, I used Python 3.10.11. Don't forget to install PyTorch for your hardware. It will be easier to understand the entire code if you review the code in the vgg16-transfer-learning-pytorch.ipynb notebook.
 
-![model!](https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg" alt="diagram" width="800" />
 picture from https://media.geeksforgeeks.org/wp-content/uploads/20200219152207/new41.jpg
 
 ### Quick start
